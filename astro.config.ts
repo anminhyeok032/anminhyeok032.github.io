@@ -6,9 +6,10 @@ import remarkCollapse from "remark-collapse";
 import sitemap from "@astrojs/sitemap";
 // import { SITE } from "./src/config";
 
-// https://astro.build/config
+const LIVE_URL = "https://anminhyeok032.github.io";
+
 export default defineConfig({
-  site: 'https://anminhyeok032.github.io',
+  site: LIVE_URL,
   integrations: [
     tailwind({
       applyBaseStyles: false,
